@@ -1,0 +1,17 @@
+{
+  "name": "circles",
+  "version": "1.0.0",
+  "description": "a small animation with circles",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "circles"
+  ],
+  "author": "Jonathan Rixhon",
+  "license": "ISC",
+  "devDependencies": {
+    "laravel-mix": "^6.0.11"
+  }
+}
