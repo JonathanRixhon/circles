@@ -1,3 +1,5 @@
 // webpack.mix.js
 let mix = require('laravel-mix')
-mix.js('src/app.js', 'dist').setPublicPath('dist')
+mix.setPublicPath('dist')
+mix.js('src/js/app.js', 'js').sass('src/scss/main.scss', 'css')
+mix.copy('src/index.html', 'dist/index.html')
